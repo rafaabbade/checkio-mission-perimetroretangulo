@@ -1,4 +1,4 @@
-def perimetro_retangulo(l,h):
+def perimetro_retangulo(largura, altura):
     # escreva aqui seu código
     return None
 
