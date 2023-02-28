@@ -1,19 +1,20 @@
-def soma(a,b):
+def perimetro_retangulo(l,h):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(perimetro_retangulo(3,2))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 # testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
+assert perimetro_retangulo(2, 4) == 12 
+
+assert perimetro_retangulo(5, 10) == 30 
+
+assert perimetro_retangulo(3, 7) == 20
+
 # testa a função com zero como parâmetro
-assert soma(0, 0) == 0
+assert soma(10, 0) == 0
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
