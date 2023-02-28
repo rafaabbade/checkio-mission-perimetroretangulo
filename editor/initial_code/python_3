@@ -14,7 +14,5 @@ assert perimetro_retangulo(5, 10) == 30
 
 assert perimetro_retangulo(3, 7) == 20
 
-# testa a função com zero como parâmetro
-assert perimetro_retangulo(10, 0) == 0
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
